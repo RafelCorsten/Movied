@@ -1,18 +1,14 @@
 {
-  "name": "codeworks-movied-angular-exercise",
+  "name": "movied",
   "version": "1.0.5",
-  "description": "A Codeworks exercise to train students",
+  "description": "",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "codeworksbcn/movied-angular-exercise"
-  },
   "scripts": {
     "install": "cd client && npm i .",
     "precommit": "cd client && ng lint"
   },
-  "author": "Codeworks",
-  "license": "UNLICENSED",
+  "author": "",
+  "license": "",
   "private": true,
   "devDependencies": {
     "cz-changelog": "^1.0.1",

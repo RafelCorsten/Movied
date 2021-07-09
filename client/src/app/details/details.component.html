@@ -1,0 +1,21 @@
+<div class="content" *ngIf="movieDetail">
+    <div class="imagewrap">
+         <img class="image"src="https://image.tmdb.org/t/p/original{{movieDetail.poster_path}}">
+    </div>
+    <div class="content-text">
+        <h3>
+            Movie title: {{movieDetail.original_title}}
+        </h3>
+        <p>
+            <b>Description:</b> {{movieDetail.tagline}}
+        </p>
+    </div>
+</div>
+
+<div *ngIf="movieDetail">
+    <p class="content-bottom">
+        {{movieDetail.overview}}  
+    </p>
+</div>
+
+

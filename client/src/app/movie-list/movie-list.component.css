@@ -1,0 +1,7 @@
+.movie-list {
+  display: flex;
+  height: auto;
+  width: 100%;
+  overflow-x: scroll;
+}
+

@@ -7,7 +7,7 @@ import { IMovie } from './IMovieType';
   providedIn: 'root',
 })
 export class ApiClientService {
-  private url: string = 'http://movied.herokuapp.com';
+  private url: string = 'https://movied.herokuapp.com';
   constructor(private http: HttpClient) {}
 
   // Get the box-office list of movies

@@ -11,7 +11,7 @@ export class ApiClientService {
   constructor(private http: HttpClient) {}
 
   // Get the box-office list of movies
-  getDiscoverMovies(): Observable<IMovie[]> {
+  getDiscoverMovies (): Observable<IMovie[]> {
     return this.http.get<IMovie[]>(`${this.url}/discover`);
   }
 

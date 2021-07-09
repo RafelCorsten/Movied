@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './header/header.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
-import { MovieListItemComponent } from './movie-list-item/movie-list-item.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DetailsComponent } from './details/details.component';
+import { SwiperModule } from 'swiper/angular';
 
 
 @NgModule({
@@ -17,10 +17,9 @@ import { DetailsComponent } from './details/details.component';
     DashboardComponent,
     HeaderComponent,
     MovieListComponent,
-    MovieListItemComponent,
     DetailsComponent,
   ],
-  imports: [BrowserModule, HttpClientModule, AppRoutingModule],
+  imports: [BrowserModule, HttpClientModule, AppRoutingModule, SwiperModule],
   providers: [],
   bootstrap: [AppComponent],
 })

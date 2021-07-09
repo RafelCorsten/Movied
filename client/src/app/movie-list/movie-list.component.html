@@ -1,7 +1,9 @@
-<div class="swiper-container">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-        <!-- Slides -->
-        <app-movie-list-item *ngFor="let movie of movies" [movie]="movie"></app-movie-list-item>
-    </div>
+<div>
+  <swiper [slidesPerView]="5" [spaceBetween]="30" [loop]="true" [autoplay]="true" class="mySwiper">
+    <ng-template *ngFor="let movie of movies" [movie]="movie" swiperSlide>
+      <a routerLink="/{{this.movie.id}}">
+      <img class="image" src="https://image.tmdb.org/t/p/original{{this.movie.poster_path}}">
+    </a>
+    </ng-template>
+  </swiper>
 </div>

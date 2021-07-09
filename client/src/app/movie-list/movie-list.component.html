@@ -1,3 +1,7 @@
-<div class="movie-list">
-    <app-movie-list-item *ngFor="let movie of movies" [movie]="movie"></app-movie-list-item>
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <app-movie-list-item *ngFor="let movie of movies" [movie]="movie"></app-movie-list-item>
+    </div>
 </div>

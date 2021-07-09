@@ -1,7 +1,11 @@
-.movie-list {
+/* .movie-list {
   display: flex;
   height: auto;
   width: 100%;
   overflow-x: scroll;
-}
+} */
 
+.swiper-container {
+  width: 100%;
+  height: auto;
+}

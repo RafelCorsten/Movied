@@ -10,6 +10,7 @@ import { MovieListItemComponent } from './movie-list-item/movie-list-item.compon
 import { AppRoutingModule } from './app-routing.module';
 import { DetailsComponent } from './details/details.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

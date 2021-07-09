@@ -1,6 +1,6 @@
 <div class="dashboard">
     <h1 class="title"> BoxOffice</h1>
-    <app-movie-list [movies]="boxOfficeMovies"></app-movie-list>
+    <app-movie-list [movies]="boxOfficeMovies" *ngIf="boxOfficeMovies.length > 0"></app-movie-list>
     <h1 class="title">Action</h1>
-    <app-movie-list [movies]="actionMovies"></app-movie-list>
+    <app-movie-list [movies]="actionMovies" *ngIf="actionMovies.length > 0"></app-movie-list>
 </div>
